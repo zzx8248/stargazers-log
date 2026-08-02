@@ -1,0 +1,26 @@
+[
+  {
+    "name": "vite",
+    "owner": "vitejs",
+    "description": "Next generation frontend tooling.",
+    "starredAt": "2026-07-20T14:30:00Z",
+    "language": "TypeScript",
+    "url": "https://github.com/vitejs/vite"
+  },
+  {
+    "name": "swr",
+    "owner": "vercel",
+    "description": "React Hooks for data fetching.",
+    "starredAt": "2026-07-14T09:15:00Z",
+    "language": "TypeScript",
+    "url": "https://github.com/vercel/swr"
+  },
+  {
+    "name": "shadcn/ui",
+    "owner": "shadcn",
+    "description": "Beautifully designed components built with Radix and Tailwind.",
+    "starredAt": "2026-06-30T18:45:00Z",
+    "language": "TypeScript",
+    "url": "https://github.com/shadcn-ui/ui"
+  }
+]

@@ -1,0 +1,72 @@
+:root {
+  color-scheme: light dark;
+  font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  line-height: 1.5;
+}
+
+body {
+  margin: 0;
+  background: #0f172a;
+  color: #e2e8f0;
+}
+
+.page {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 3rem 1.25rem 4rem;
+}
+
+h1 {
+  margin-bottom: 0.25rem;
+}
+
+.events-list {
+  list-style: none;
+  padding: 0;
+  margin: 2rem 0 0;
+  display: grid;
+  gap: 1rem;
+}
+
+.event-card {
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 14px;
+  padding: 1rem 1.1rem;
+  box-shadow: 0 10px 30px rgba(15, 23, 42, 0.2);
+}
+
+.event-meta {
+  display: flex;
+  justify-content: space-between;
+  gap: 0.75rem;
+  font-size: 0.9rem;
+  color: #94a3b8;
+  margin-bottom: 0.4rem;
+}
+
+.event-card h2 {
+  margin: 0 0 0.25rem;
+  font-size: 1.1rem;
+}
+
+.event-card a {
+  color: #f8fafc;
+  text-decoration: none;
+}
+
+.event-card a:hover {
+  text-decoration: underline;
+}
+
+.event-owner {
+  margin: 0 0 0.4rem;
+  color: #cbd5e1;
+  font-size: 0.95rem;
+}
+
+.empty {
+  text-align: center;
+  padding: 1rem;
+  color: #94a3b8;
+}
